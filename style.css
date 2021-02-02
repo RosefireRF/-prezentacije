@@ -34,8 +34,7 @@ h1{
   }
 .prezentacija {
     width: 31vw;
-    height: 12.87%;
-    line-height: 200px;
+    line-height: 15vh;
     font-size: 40px;
     display: inline-block;
     background-color: white;
@@ -52,6 +51,7 @@ h1{
     .prezentacija {
       width:90%;
       margin: 20px;
+      font-size: 30px;
     }
   }
 @media (min-width: 1920px){
