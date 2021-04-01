@@ -102,6 +102,11 @@ let Objekti = [
         ime: "Nađa Kostić",
         link: "https://drive.google.com/file/d/1CY_JOBmt64GCSGNRDvXgw43MD5weVDZp/view?usp=sharing"
     }
+    ,
+    {
+        ime: "Vanja Radovanović",
+        link: "https://docs.google.com/presentation/d/1YdYGpgL76gkIsZwVBSk4mOfUZq7rRRfa/edit#slide=id.p1"
+    }
 ]
 
 function stvaranje(){
