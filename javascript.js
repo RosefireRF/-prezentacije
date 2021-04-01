@@ -82,6 +82,25 @@ let Objekti = [
     {
         ime: "Nikola Škoja",
         link: "https://docs.google.com/presentation/d/15Asw4q7X-otEnbqDAtFyBDeD3SN_zim6/edit#slide=id.p1"
+    },
+    {
+        ime: "Uroš Mojsilović",
+        link: "https://docs.google.com/presentation/d/1zE4pwrpUxciXcziDXpTg4LKPKXQpMjlW/edit?usp=drive_web&ouid=100857901141926325811&rtpof=true"
+    }
+    ,
+    {
+        ime: "Milan Jovanović",
+        link: "https://docs.google.com/presentation/d/1hHuU1Y42e518-vTNhPgAd6nsi_fDfhhi/edit#slide=id.p1"
+    }
+    ,
+    {
+        ime: "Milica Cvetković",
+        link: "https://docs.google.com/presentation/d/1MZ-9arxKpWlTlGSdvAwZjjkYIdQcSKmI/edit#slide=id.p1"
+    }
+    ,
+    {
+        ime: "Nađa Kostić",
+        link: "https://drive.google.com/file/d/1CY_JOBmt64GCSGNRDvXgw43MD5weVDZp/view?usp=sharing"
     }
 ]
 

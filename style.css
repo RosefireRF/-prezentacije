@@ -47,7 +47,7 @@ h1{
     padding: 0px;
   }
 .casopis{
-    float:right; position: relative; right: 1%;
+    float:right; position: relative;
     bottom: 2px;
     background-color: #050505;
     border: 1px solid  #050505;
@@ -87,6 +87,9 @@ h1{
     }
     .prezentacija{
         margin: 10px;
+    }
+    .casopis{
+        margin-right: 10px;
     }
 }
 @media (max-width: 1600px) {
@@ -138,7 +141,6 @@ h1{
         font-size: 30px;
       }
   }
-}
 @media (max-width: 1100px){
     .prezentacija{
         font-size: 30px;
