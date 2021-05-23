@@ -1,5 +1,9 @@
 let Objekti = [
     {
+        ime: 'Jovana Đukić',
+        link : 'https://prezi.com/view/EVTtN50SiGoFmAXbohmO'
+    },
+    {
         ime : 'Ilija Krstić',
         link : "https://docs.google.com/presentation/d/1nUV07CC8rhVj4JF4zcop2zpoT0lhs5ku/edit#slide=id.p1"
     },
