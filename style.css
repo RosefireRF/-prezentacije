@@ -39,12 +39,16 @@ h1{
     padding: 0%;
     margin: 0%;
 }
-
+.generacija-titl{
+    text-align: center;
+    color: white;
+}
 #container {
     position: relative;
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
+    width: 100%;
   }
 .casopis{
     float:right; position: relative;
@@ -81,17 +85,13 @@ h1{
     box-sizing: border-box;
     color: #679BF1;
 }
-@media (max-width: 400px){
-    h1{
-        font-size: 16px;
-    }
-    .prezentacija{
-        margin: 10px;
-    }
-    .casopis{
-        margin-right: 10px;
+
+@media (min-width: 1921px){
+    .prezentacija:hover{
+        outline: 10px solid #d88507;
     }
 }
+
 @media (max-width: 1600px) {
     .casopis{
         width: 15vw;
@@ -104,9 +104,10 @@ h1{
 }
 @media (max-width: 1100px){
     .prezentacija{
-        font-size: 28px;
+        font-size: 30px;
     }
 }
+
 @media (max-width: 1000px) {
     .casopis{
         width: 22vw;
@@ -135,20 +136,25 @@ h1{
         width: 20vw;
         margin-right: 20px;
     }
+    .prez-link{
+        display: flex;
+        width: 90%;
+        margin: 20px auto;
+    }
     .prezentacija {
-        width:90%;
-        margin: 20px;
+        width: 100%;
         font-size: 30px;
       }
   }
-@media (max-width: 1100px){
+  @media (max-width: 400px){
+    h1{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 280px){
     .prezentacija{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
-@media (min-width: 1921px){
-    .prezentacija:hover{
-        outline: 10px solid #d88507;
-    }
-}

@@ -1,4 +1,4 @@
-let Objekti = [
+let gen2020 = [
     {
         ime: 'Jovana Đukić',
         link : 'https://prezi.com/view/EVTtN50SiGoFmAXbohmO'
@@ -112,13 +112,23 @@ let Objekti = [
         link: "https://docs.google.com/presentation/d/1YdYGpgL76gkIsZwVBSk4mOfUZq7rRRfa/edit#slide=id.p1"
     }
 ]
-
-function stvaranje(){
-let stvariZaPrikazati = "";
-    for (let prezentacija of Objekti){
-        let link = "'" + prezentacija.link + "'";
-        stvariZaPrikazati += "<a href=" + link + "target='_blank'><div class='prezentacija'>" + prezentacija.ime +"</div></a>";
+let gen2021 =[
+    {
+    ime: "Vesko Petrovic",
+    link: "https://test.com"
     }
-    document.getElementById("prikaz").innerHTML += stvariZaPrikazati;
+    ];
+let Generacije = [gen2020,gen2021];
+function stvaranje(){
+    for(let i = 0; i<Generacije.length;i++)
+        {
+        stvariZaPrikazati = "<h2 class='generacija-titl'>Generacija " + (2020+i) + " / " + (2020+i+1) + "</h2>"
+        for (let prezentacija of Generacije[i])
+        {
+            let link = "'" + prezentacija.link + "'";
+            stvariZaPrikazati += "<a class='prez-link' href=" + link + "target='_blank'><div class='prezentacija'>" + prezentacija.ime +"</div></a>";
+        }
+        document.getElementById("prikaz").innerHTML += stvariZaPrikazati;
+    }
 }
 stvaranje();
