@@ -111,14 +111,44 @@ let gen2020 = [
         ime: "Vanja Radovanović",
         link: "https://docs.google.com/presentation/d/1YdYGpgL76gkIsZwVBSk4mOfUZq7rRRfa/edit#slide=id.p1"
     }
-]
+    //Gen 2020 4/2
+    ,
+    {ime:"milica savić 4-2",link:"https://docs.google.com/presentation/d/1ZUGZD-_HaDcrsSQFlybXSi0O-nLHM93P/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"mina milovanović 4-2",link:"https://docs.google.com/presentation/d/1MTkTrVTHb2x7tiiB0RGJC-6FAezHKI-C/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"JOVANA KRKOBABIĆ 4-2",link:"https://docs.google.com/presentation/d/1s34tg9ofZAsEp1JzKYaxV_PYIpzyZzEh/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"ivana ćosić 4-2",link:"https://docs.google.com/presentation/d/1IErQvWgsQY2gsPlhp_VorDqdD1qK6bbe/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"sara milosavljevic 4-2",link:"https://docs.google.com/presentation/d/1rO7h0lkXR9lij08gb6jZm6N68crO7lWv/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Prezentacija Tanja Mojsoski IV2",link:"https://docs.google.com/presentation/d/17-6ttjGeiyaC34KI4PRsLTAV5eEmuiXy/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Prezentacija Tamara Janicijevic",link:"https://docs.google.com/presentation/d/1xhaK4qPHf36xuEbvLaMpeL_ofrF9i8ol/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Prezentacija Marko Bozic 4-2",link:"https://docs.google.com/presentation/d/1qDD3dJcCUjAJoYaX15pvDN6EEB5bGIIz/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Prezentacija Lela Janjić IV-2",link:"https://docs.google.com/presentation/d/1CpE5TPCBJA_xGWNfwnDuU2D1-1kx9Aq1/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"prezentacija Katarina Krneta 4-2",link:"https://docs.google.com/presentation/d/1_w0vXqAbDJc7lTgDGSx8Z4XRRp6z1OLY/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"prezentacija Jovana Luburic",link:"https://docs.google.com/presentation/d/1nm3k-vVthXJntQ7DkwidCKNz98Dponoy/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Prezentacija Emira Ajdini IV2",link:"https://docs.google.com/presentation/d/1JenLN2-2sxGPzLB4auFj9Npq3ylwLC9j/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Prezentacija Ana Andrić 4-2",link:"https://docs.google.com/presentation/d/1-k0X_10kPR9r9Xp8qQWt_zg-2aBynF6i/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Presentation - Andjela Smiljanic 4-2",link:"https://docs.google.com/presentation/d/1jACVnrOqcWflzysb8Db9lO7wV7eLyYXe/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"preduzeće Katarina Krneta 4-2",link:"https://docs.google.com/presentation/d/1SQoXzJDJLwSy1eVdCu6nrjXWmfh3fIsV/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Milica Mihajlović 4-2",link:"https://docs.google.com/presentation/d/1Q-Tn_TIclssORhIfequzsxWC-X3c_YB9/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Jelena Maglov 4-2",link:"https://docs.google.com/presentation/d/14GpgCgZV4FVG7O15VG6Rz07QcR_dmTLL/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Biznis plan- Staša Đurović",link:"https://docs.google.com/presentation/d/10x5ktkVhPnUbDa-Je4be-mxMvFk1b8BI/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"anja radosavljevic 4-2",link:"https://docs.google.com/presentation/d/1PREbrLo6w1OAl0QQf36Y4deA8LmLYRtk/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"andjela golubovic 4-2",link:"https://docs.google.com/presentation/d/1Pc1eexez1u9Ngmkrz5Uu8LYTfaq6t8vE/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"},
+    {ime:"Aleksandra Rajković 4-2",link:"https://docs.google.com/presentation/d/1k4yTVGjFVhSTGt0n689qrkSJ0udpXPk6/edit?usp=sharing&ouid=103846326571998562086&rtpof=true&sd=true"}
+
+];
 let gen2021 =[
+    {ime:"Danica i Emilija",link:"https://docs.google.com/presentation/d/1pHxwqZCRUpGoCWw_8eW9RMHL8kG2GGDd/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"},
+    {ime:"Marija",link:"https://docs.google.com/presentation/d/1W9z0GJI65ctAyyculCGTa4OQA1CWqj8D/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"},
+    {ime:"Anastasija i Andjela",link:"https://docs.google.com/presentation/d/1-7l6EJw0XLjiLQcHyzj52CsQN3fAD4gC/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"},
+    {ime:"Sara Paunović",link:"https://docs.google.com/presentation/d/118OOJUSkVu1fjNmwQXgLHRY6SacHZEGi/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"}
+    ];    
+let gen2022 =[
     {
-    ime: "Vesko Petrovic",
-    link: "https://test.com"
+    ime: 'Marko Markovic',
+    link: "https://google.com"
     }
-    ];
-let Generacije = [gen2020,gen2021];
+];
+let Generacije = [gen2020,gen2021,gen2022];
 function stvaranje(){
     for(let i = 0; i<Generacije.length;i++)
         {
