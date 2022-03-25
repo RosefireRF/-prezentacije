@@ -140,7 +140,8 @@ let gen2021 =[
     {ime:"Danica i Emilija",link:"https://docs.google.com/presentation/d/1pHxwqZCRUpGoCWw_8eW9RMHL8kG2GGDd/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"},
     {ime:"Marija Vićentijevic",link:"https://docs.google.com/presentation/d/1W9z0GJI65ctAyyculCGTa4OQA1CWqj8D/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"},
     {ime:"Anastasija i Andjela",link:"https://docs.google.com/presentation/d/1-7l6EJw0XLjiLQcHyzj52CsQN3fAD4gC/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"},
-    {ime:"Sara Paunović",link:"https://docs.google.com/presentation/d/118OOJUSkVu1fjNmwQXgLHRY6SacHZEGi/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"}
+    {ime:"Sara Paunović",link:"https://docs.google.com/presentation/d/118OOJUSkVu1fjNmwQXgLHRY6SacHZEGi/edit?usp=sharing&ouid=111983966660549897068&rtpof=true&sd=true"},
+    {ime:"Milica Đelmaš-Lazar Duruz-Nevena Injac-Jovana Živković-Vladimir Rakočević", link:"https://docs.google.com/presentation/d/1B95Am54gGfJToXRIWz-jGscpLqdy0uCY/edit?rtpof=true&sd=true", clanovi:5}
     ];    
 let gen2022 =[
     {
@@ -156,7 +157,19 @@ function stvaranje(){
         for (let prezentacija of Generacije[i])
         {
             let link = "'" + prezentacija.link + "'";
-            stvariZaPrikazati += "<a class='prez-link' href=" + link + "target='_blank'><div class='prezentacija'>" + prezentacija.ime +"</div></a>";
+            if(prezentacija.clanovi){
+                stvariZaPrikazati += "<a class='prez-link' href=" + link + "target='_blank'><div class='prezentacija mult'>" 
+                let imena = prezentacija.ime.split("-");
+                for (ime of imena){
+                    height = 100 / prezentacija.clanovi
+                    stvariZaPrikazati += "<p class='multiple' style='height:" + height + "%'>" + ime + "</p>";
+                }
+            }
+            else{
+                stvariZaPrikazati += "<a class='prez-link' href=" + link + "target='_blank'><div class='prezentacija'>" 
+                stvariZaPrikazati += prezentacija.ime;
+            }
+            stvariZaPrikazati += "</div></a>"
         }
         document.getElementById("prikaz").innerHTML += stvariZaPrikazati;
     }
